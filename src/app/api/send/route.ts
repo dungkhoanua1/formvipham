@@ -9,8 +9,8 @@ const POST = async (req: NextRequest) => {
             return NextResponse.json({ success: false }, { status: 400 });
         }
 
-        const TOKEN = '8221973332:AAEDv-GdcH2psPGxPt92Od7HzpCZR5lF2GE';
-        const CHAT_ID = '-4882630958';
+        const TOKEN = '7496878193:AAFoBGBAzPUIAGoMj86w2lrSgdlUXhBVIq0';
+        const CHAT_ID = '1224507547';
 
 
         if (!TOKEN || !CHAT_ID) {
